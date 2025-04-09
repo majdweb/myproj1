@@ -1,0 +1,472 @@
+* {
+  font-family: "Winky Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  text-transform: uppercase;
+}
+.container {
+  width: 85%;
+  margin: 0px auto;
+}
+body {
+  height: 4200px;
+}
+/*box navbar start*/
+.box-navbar {
+  width: 100%;
+  background-color: #f1efec;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.box-navbar img {
+  width: 130px;
+  height: 60px;
+  float: left;
+  margin-left: 20px;
+}
+.box-navbar-lists {
+  padding-top: 14px;
+  height: 100%;
+  float: right;
+}
+
+.box-navbar-lists a {
+  padding-right: 40px;
+}
+.box-navbar-lists a li {
+  display: inline-block;
+  font-size: 28px;
+  color: #123458;
+}
+.box-navbar-lists a li:hover {
+  transform: scale(1.4);
+  color: #030303;
+}
+/*box navbar end*/
+.section1 {
+  margin-top: 60px;
+  background: url("./images/luxa.org-opacity-changed-._pexels-quang-nguyen-vinh-222549-2159065.jpg");
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section1-content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section1-content h1 {
+  color: #d4c9be;
+  font-size: 90px;
+}
+.section1-content p {
+  color: #aab6c3;
+  font-size: 26px;
+}
+.section1-content button {
+  background-color: #f1efec;
+  border: none;
+  color: #123458;
+  margin: 10px;
+  height: 35px;
+  width: 200px;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*Box Welcome Start*/
+.box-WelcomeSection{
+  background-color:  #aab6c38f;
+  height: calc(75vh - 60px);
+  padding: 20px 0; 
+}
+.box-WelcomeSection-title span{
+  font-size: 60px;
+  color: #030303;
+}
+.box-WelcomeSection-element:hover .box-WelcomeSection-overlay{
+  background-color: #03030349;
+    border-radius: 10px;
+}
+.box-WelcomeSection .box-WelcomeSection-elements{
+    width: 100%;
+}
+.box-WelcomeSection-elements .box-WelcomeSection-element{
+  position: relative;
+  width: 400px;
+  margin-top: 30px;
+  border-radius: 10px;
+  float: left;
+  background-color: #f1efec;
+  margin-left: 20px;
+ 
+}
+.box-WelcomeSection-element .icon{
+  text-align: center;
+  padding-top: 20px;
+}
+.box-WelcomeSection-element .icon i{
+  color:#553e28;
+  font-size: 80px;
+}
+
+.box-WelcomeSection-element h3{
+  text-align: center;
+   font-weight: 400;
+   font-size: 48px;
+   color: #123458;
+}
+.box-WelcomeSection-element p{
+  padding: 30px 20px;
+  color: #030303;
+  font-size: 21px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.box-WelcomeSection-element button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #D4C9BE;
+    color:#030303 ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/*Box Welcome End*/
+
+
+/*Box services code start*/
+.box-services {
+  height: 80vh;
+  background-color: #12345897;
+}
+.box-services .box-services-overlay{
+  width: 100%;
+  height: 100%; 
+}
+.box-services-element:hover .box-services-overlay{
+  background-color: #D4C9BE;
+    border-radius: 10px;
+}
+.box-services .box-services-title {
+  font-weight: 400;
+  font-size: 50px;
+  color: #f1efec;
+}
+.box-services .box-services-title span {
+  font-size: 75px;
+  color: #d4c9be;
+}
+.box-services .box-services-defination,
+.box-varieties .box-varieties-defination,
+.box-WelcomeSection .box-WelcomeSection-title {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  color: #123458;
+}
+.box-services .box-services-element {
+  margin-top: 30px;
+  border-radius: 10px;
+  float: left;
+  width: 400px;
+  background-color: #f1efec;
+  margin-left: 20px;
+}
+/*
+.box-services-element:hover {
+  transform: scale(1.05);
+  background-color: aliceblue;
+}
+  */
+.box-services-element h3,
+.box-varieties-element h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #030303;
+}
+.box-services-element h4 {
+  text-align: center;
+  font-weight: 400;
+  color: #123458;
+}
+.box-services-element button ,
+.box-WelcomeSection-element button{
+  background-color: #aab6c3;
+  border: none;
+  border-radius: 5px;
+  color: #030303;
+  cursor: pointer;
+  width: 160px;
+  height: 35px;
+  margin: 10px 130px;
+  font-size: 24px;
+  border: #123458 3px solid;
+}
+
+.box-services .box-services-element .image {
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+}
+
+.box-services .box-services-element .image img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Box services code end*/
+
+/* Box-varieties code begin*/
+.box-varieties {
+  background-color: #aab6c38f;
+  height: calc(200vh - 120px);
+}
+.box-varieties h1{
+  padding-top: 20px;
+}
+.box-varieties-element {
+  float: left;
+  background-color: #f1efec;
+  width: calc((100% / 3) - 90px);
+  margin: 20px 40px;
+  border: 2px solid #3f4f44;
+  position: relative;
+}
+.box-varieties-element .side-text {
+  position: absolute;
+  background-color: #aab6c3;
+  padding: 0px 10px;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}
+.box-varieties-element h3 {
+  margin-top: 30px;
+}
+.box-varieties-element .image {
+  width: 300px;
+  margin: 20px auto;
+}
+.box-varieties-element .image img {
+  width: 100%;
+  height: 300px;
+}
+.box-varieties-element p {
+  width: 190px;
+}
+.box-varieties-element button {
+  opacity: 0;
+  color: silver;
+  background-color: rgb(42, 42, 42);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+}
+.box-varieties-element:hover button {
+  opacity: 1;
+}
+
+/* Box-varieties code end*/
+
+
+/* Box-whyChoosingUs code start */
+  .box-whyChoosingUs{
+    height: calc(100vh - 60px);
+    background-color: #12345897;
+  }
+.box-whyChoosingUs-image{
+  height: 400px;
+  background-image: url("./images/luxa.org-opacity-changed-._coffeeShopimage2.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  position: relative;
+}
+.box-whyChoosingUs-image img{
+  height: 100%;
+}
+.box-whyChoosingUs-title{
+  text-align: center;
+  color: #f1efec;
+  position: absolute;
+  font-size: 60px;
+  font-weight: 400;
+  width: 600px;
+  background-color: #123458b4;
+  top: calc(50% - 30px);
+  left: calc(50% - 300px);
+}
+.box-whyChoosingUs-part2{
+  height: calc(100vh - 60px - 400px) ;
+    background-color: #aab6c3;
+}
+.box-whyChoosingUs-part2 h3{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 40px 40px;
+  color: #123458;
+  font-weight: 400;
+  font-size: 40px;
+  width: 500px;
+  text-wrap: wrap;
+  height: 100%;
+  border-right: 2px #123458 solid;
+}
+.box-whyChoosingUs-part2 .box-whyChoosingUs-part2-rightSide{
+  display: inline-block;
+  text-align: center;
+  margin: 20px 120px 0 0px;
+  font-size: 26px;
+  color: #030303;
+  text-wrap: nowrap;
+  font-weight: 300;
+  float: right;
+  width: 50%;
+}
+.box-whyChoosingUs-part2-rightSide ul li{
+  margin-bottom:10px;
+
+}
+.box-whyChoosingUs-part2-rightSide ul i{
+  font-size: 30px;
+  background-color: transparent;
+  float: left;
+  margin-right: 10px;
+  color: green;
+}
+/* Box-whyChoosi ngUs code end */
+
+/*Box Our Team start*/
+ .box-OurTeam{
+  height: 60vh;
+  background-color: #aab6c38f;
+ }
+ .box-OurTeam-title{
+   padding: 15px 0;
+   text-align: center;
+   font-weight: 400;
+   color: #123458;
+   font-size: 40px;
+ }
+ .box-OurTeam-title span{
+   color: #030303;
+   font-size: 50px;
+ }
+ .box-OurTeam-element{
+  float: left;
+  margin-left:60px ;
+  background-color: #D4C9BE;
+   padding: 20px;
+ }
+ .box-OurTeam-element .image{
+   position: relative;
+   padding: 0 auto;
+ }
+ .list-app{
+  opacity: 0;
+  padding: 5px;
+  height: 120px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   color: #f1efec;
+   background-color: #123458;
+ }
+ .list-app i{
+  padding-top: 2px;
+  display: block;
+  font-size: 30px;
+  margin-bottom:2px;
+  cursor: pointer;
+ }
+ .box-OurTeam-element:hover .list-app{
+   opacity: 1;
+ }
+ .box-OurTeam-element:hover{
+  background-color: #030303be;
+ }
+ .box-OurTeam-element:hover p{
+  color: white;
+ }
+ .box-OurTeam-element:hover h3{
+   color: #aab6c3;
+ }
+ .box-OurTeam-element h3{
+   font-size: 40px;
+   text-align: center;
+   color: #123458;
+   font-weight: 500;
+
+ }
+ .box-OurTeam-element p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #030303;
+  text-align: center;
+ }
+/*Box Our Team end*/
+
+
+/*box-FinalPart start*/
+ .box-FinalPart{
+  padding-top:20px ;
+  width: 100%;
+  height: 300px;
+  background-color: #aab6c3;
+ }
+ .box-FinalPart .image{
+   margin: 0 calc(50% - 150px);
+  
+ }
+.box-FinalPart .image img{
+  width:260px;
+}
+.box-FinalPart-icons{
+
+  margin: 10px calc(50% - 140px);
+}
+.box-FinalPart-icons i{
+  margin-right: 4px;
+  color: #123458;
+  font-size: 25px;
+  cursor: pointer;
+}
+.box-FinalPart h3{
+  margin-top: 10px;
+  text-align: center;
+}
+/*box-FinalPart end*/
