@@ -104,10 +104,18 @@ body {
   font-size: 60px;
   color: #030303;
 }
-.box-WelcomeSection-element:hover .box-WelcomeSection-overlay{
-  background-color: #03030349;
-    border-radius: 10px;
-}
+.box-WelcomeSection-element::before{
+  content: '';
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  background-color: #12345838;
+  transition: 0.5s;
+  z-index: 3;
+ }
+
 .box-WelcomeSection .box-WelcomeSection-elements{
     width: 100%;
 }
