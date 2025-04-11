@@ -114,6 +114,7 @@ body {
   background-color: #12345838;
   transition: 0.5s;
   z-index: 3;
+    border-radius: 10px;
  }
  .box-WelcomeSection-element:hover::before{
   width: 100%;
